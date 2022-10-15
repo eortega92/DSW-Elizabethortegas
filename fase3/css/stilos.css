@@ -1,5 +1,5 @@
 .encabezado {
-	
+
 	background-color: #1C3879;
 	padding: 30px;
 	text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .principal {
-	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	background-color: #fffefc;
 	padding: 30px;
