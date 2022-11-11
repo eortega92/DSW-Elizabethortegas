@@ -1,0 +1,97 @@
+.encabezado {
+
+	background-color: #1C3879;
+	padding: 30px;
+	text-align: center;
+
+}
+
+.navegacion {
+	background-color: #607EAA;
+	padding: 0px;
+}
+
+.contenedor {
+	background-color: #aec0db;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+
+}
+
+.principal {
+	flex-direction: column;
+	justify-content: center;
+	background-color: #fffefc;
+	padding: 30px;
+	grid-column: 1/4;
+}
+
+.titulo.principal {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.contlateral {
+	background-color: #1C3879;
+	padding: 30px;
+	grid-column: 4/5;
+}
+
+.piepagina {
+	background-color: #1C3879;
+	padding: 30px;
+}
+
+
+nav {
+	max-width: 900px;
+	margin: auto;
+	background-color: #4a4a4a;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.menu-horizontal {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-horizontal>li>a {
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu-horizontal>li:hover {
+	background-color: #1C3879;
+}
+
+.menu-vertical {
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: #05070b(0, 0, 0, .10);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+	display: block;
+}
+
+.menu-vertical li:hover {
+	background-color: #1C3879;
+}
+
+
+.menu-vertical li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
